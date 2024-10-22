@@ -1,7 +1,7 @@
 {
   "name": "SheinnaMaee",
   "version": "0.1.0",
-  "homepage": "https://SheinnaMaee.github.io/portfolio",
+  "homepage": "https://SheinnaMaee.github.io/my-portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
