@@ -10,10 +10,14 @@ const About = () => {
 			
       <p id="about_text">
         
-      An IT student is a dedicated learner who is passionate about technology,  <br></br>
-      eager to acquire knowledge in areas such as programming, networking, <br></br>
-      and cybersecurity, and is committed to developing practical skills that 
-      will enable them to solve complex problems in the tech industry.
+      Sheinna Mae Sartiga, currently an IT student of Western Institute of Technology. 
+      With a deep  passion for technology, I am continously <br></br>
+      learning and exploring diverse areas such as programming, networking, 
+      and cybersecurity.
+      I am dedicated to honing my skills and gaining hands-on <br></br>experience to solve real-world 
+      challenges in the tech industry. My goal is combine creativity with technical expertise to  
+      contribute to innivate solutions that make difference.
+
 			</p>
       </Fade>
 		</section>
