@@ -1,28 +1,29 @@
-import React from "react"
+import React from "react";
 import Fade from 'react-reveal/Fade';
+import TodosImage from './assets/Todos.jpg'; // Adjust the path based on your structure
+
 const Project = () => {
-  return(
+  return (
     <div>
-     
-    	<div className="project project1">
-		
-				<div className="details">
-				<Fade left cascade>
-					<h3>Oracle Manufacturing</h3>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						At, aperiam.
-					</p>
-				</Fade >
-				</div>
-				<div className="img-contanier">
-				<Fade left cascade>
-					<img src="https://images.unsplash.com/photo-1619314367032-b6f1e670383f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="" />
-				</Fade>
-				</div>
-			</div>
-   
+      <div className="project project1">
+        <div className="details">
+          <Fade left cascade>
+            <h4>TODO LIST</h4>
+            <p>
+              A todo list is a practical and efficient tool for organizing and managing tasks or activities that need to be completed. <br />
+              It allows you to clearly outline tasks, helping ensure nothing important is missed. <br />
+              By prioritizing tasks according to their urgency or importance, it enhances time management.<br />
+            </p>
+          </Fade>
+        </div>
+        <div className="img-container">
+          <Fade left cascade>
+            <img src={TodosImage} alt="Todo List Project" />
+          </Fade>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
-export default Project
+
+export default Project;

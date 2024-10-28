@@ -20,6 +20,7 @@ const Hero = () => {
 				</h1>
 				
 			</div>
+			
 	
 			<div className="scroll">
 				<a href="#about" className="scroll-down">
